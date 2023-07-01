@@ -68,8 +68,19 @@
 
 .para {
   color: #cbd5e1;
+  font-size: 12px;
 }
 
 .div-user {
   align-self: flex-end;
+}
+
+.personal {
+  align-self: center;
+  color: #54acaf;
+  font-size: 12px;
+}
+
+.check {
+  color: #b7d5bb;
 }

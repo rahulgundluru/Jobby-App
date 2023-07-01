@@ -94,11 +94,33 @@ class LoginForm extends Component {
     return (
       <div className="div-container">
         <div className="div-sub-cont-jobby">
+          <p className="personal">
+            WebApp built by Rahul Gundluru <br />
+            To see my LinkedIn Profile{' '}
+            <a
+              href="https://www.linkedin.com/in/rahulgundluru/"
+              className="check"
+              target="blank"
+            >
+              {' '}
+              Click Here{' '}
+            </a>
+            <br />
+            For Source Code{' '}
+            <a
+              href="https://github.com/rahulgundluru/Jobby-App"
+              className="check"
+              target="blank"
+            >
+              Click Here
+            </a>
+          </p>
           <img
             src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
             alt="website logo"
             className="jobby-app-image"
           />
+
           <form onSubmit={this.getSubmit} className="form">
             <div>{this.renderUsername()}</div>
             <div>{this.renderPassword()}</div>
